@@ -25,13 +25,13 @@ Notes:
 
 * create github repo, e.g.:
 
-  https://github.com/fracpete/dvc-test
+  https://github.com/fracpete/dvc-test-ssh
 
 * check out repo:
 
   ```bash
-  git clone git@github.com:fracpete/dvc-test.git
-  cd dvc-test
+  git clone git@github.com:fracpete/dvc-test-ssh.git
+  cd dvc-test-ssh
   ```
 
 * initialize dvc within cloned repo:
@@ -81,7 +81,7 @@ Notes:
 
     ```bash
     git add data.dvc
-    git commit -m "added data control file" data.dvc
+    git commit -m "added data control file" data.dvc .gitignore
     ```
 
   * push data to remote:
@@ -162,8 +162,8 @@ Notes:
 
   ```bash
   cd /somewhere/else
-  git clone git@github.com:fracpete/dvc-test.git
-  cd dvc-test
+  git clone git@github.com:fracpete/dvc-test-ssh.git
+  cd dvc-test-ssh
   ```
 
 * grab the data:
