@@ -21,3 +21,18 @@ Opt out globally with one command:
 dvc config --global core.analytics false
 ```
 
+
+## Deleting old data revisions
+
+To keep data usage in check, e.g., when paying for cloud storage, you can also 
+delete files from old revisions using the `dvc gc` command.
+
+The following command will keep only the last three revisions (`--num 3`) starting with
+the current version (`--rev HEAD`), deleting them locally and in the remote (`--cloud`):
+
+```bash
+dvc gc --num 3 --rev HEAD --cloud
+```
+
+**NB:** The git repo will still list these old revisions, of course.
+
