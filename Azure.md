@@ -9,6 +9,8 @@ Notes:
   * https://dvc.org/doc/user-guide/data-management/remote-storage/azure-blob-storage
   * https://medium.com/@docs.thiru/dvc-with-azure-blob-storage-06f965b846f3
 
+* replace `myremote` with an appropriate name
+
 
 ## Prerequisites
 

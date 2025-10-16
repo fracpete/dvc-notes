@@ -8,6 +8,8 @@ Notes:
   * https://dvc.org/doc/start
   * https://dvc.org/doc/user-guide/data-management/remote-storage/ssh
 
+* replace `myremote` with an appropriate name
+
 
 ## Prerequisites
 
